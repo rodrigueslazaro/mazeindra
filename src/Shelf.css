@@ -1,0 +1,15 @@
+th {
+    text-align: left;
+}
+table {
+    width: 800px;
+}
+.title {
+    width: 50%;
+}
+.author {
+    width: 25%;
+}
+.date {
+    width: 15%;
+}

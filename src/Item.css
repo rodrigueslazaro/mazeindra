@@ -1,0 +1,19 @@
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2, h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h1 {
+    width: 400px;
+}
+h2 {
+    width: 200px;
+}
+h3 {
+    width: 100px;
+}
