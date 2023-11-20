@@ -17,3 +17,30 @@ h2 {
 h3 {
     width: 100px;
 }
+
+
+th {
+    text-align: left;
+    padding: 10px;
+    max-height: 10px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+}
+tr {
+    background-color: rgb(192, 190, 190);
+}
+tr:hover {
+    background-color: rgb(203, 200, 200);
+    cursor: pointer;
+}
+tr:hover:nth-child(2n) {
+    background-color: rgb(231, 229, 229);
+}
+tr:nth-child(2n) {
+    background-color: rgb(219, 219, 219);
+}
+th a {
+    text-decoration: none;
+}

@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React from 'react';
 
-const FileUpload = () => {
-  const [file, setFile] = useState(null);
+const FileUpload = ({ onFileSelect }) => {
+  const handleFileInput = (e) => {
+    onFileSelect(e.target.files[0]);
+  };
 
   return (
-    <>
-      <form>
-        <label htmlFor="fileInput">Upload BibTex</label>
-        <input type="file" id="fileInput" accept='.bib'/>
-      </form>
-    </>
-  )
-}
+    <input
+      type="file"
+      accept=".bib"
+      onChange={handleFileInput}
+    />
+  );
+};
 
-export default FileUpload
+export default FileUpload;

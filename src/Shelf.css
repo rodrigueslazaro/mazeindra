@@ -1,15 +1,12 @@
-th {
-    text-align: left;
-}
 table {
-    width: 800px;
+    width: 50vw;
 }
 .title {
-    width: 50%;
+    width: 20%;
 }
 .author {
-    width: 25%;
+    width: 10%;
 }
 .date {
-    width: 15%;
+    width: 10%;
 }
