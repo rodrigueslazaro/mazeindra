@@ -1,5 +1,20 @@
 table {
-    width: 50vw;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+    position: sticky;
+    top: 0;
+}
+thead th {
+    background-color: #4a3ef2;
+    color: white;
+}
+
+.entries-table {
+    max-height: 95dvh;
+    width: 65%;
+    overflow: scroll;
 }
 .title {
     width: 20%;

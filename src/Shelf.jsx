@@ -130,9 +130,7 @@ function Shelf() {
 
     console.log('File name:', file.name)
   }
-
-  return (
-    <>
+    {/* <section>
     <Add addItem={addItem}/>
     <form>
       <FileUpload onFileSelect={handleFileSelect}/>
@@ -146,6 +144,10 @@ function Shelf() {
     <button onClick={showItems}>
       SHOW
     </button>
+    </section> */}
+  return (
+    <article class="entries-table">
+
     <table>
       <colgroup>
         <col className="title"/>
@@ -171,7 +173,7 @@ function Shelf() {
         ))}
       </tbody>
     </table>
-    </>
+    </article>
   )
 
 }
